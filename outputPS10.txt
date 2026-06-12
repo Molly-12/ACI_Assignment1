@@ -1,0 +1,41 @@
+==============================================================
+  GRID TRAVEL AGENT - A* SEARCH OUTPUT
+==============================================================
+
+  Grid Size             : 8 x 8
+  Start Position        : (0, 0)
+  Goal  (Queen)         : (7, 6)
+
+Path taken by the knight:
+(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (4, 2), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (6, 6), (7, 6)
+
+Number of cells traversed : 14
+The cost of the path is   : 2
+
+Detailed Path Breakdown:
+  Cell         Type                   Adj. Reward
+  ------------ ---------------------- ------------
+  (0, 0)       Knight (start)         (start — no reward)
+  (1, 0)       Empty                  -5
+  (2, 0)       Empty                  +5
+  (2, 1)       Empty                  0
+  (2, 2)       Empty                  -10
+  (3, 2)       Empty                  +2
+  (4, 2)       Empty                  -5
+  (5, 2)       Empty                  +5
+  (5, 3)       Empty                  0
+  (5, 4)       Empty                  0
+  (5, 5)       Empty                  +5
+  (5, 6)       Empty                  -5
+  (6, 6)       Empty                  +5
+  (7, 6)       Queen (goal)           +5
+
+  TOTAL NET REWARD: 2
+
+==============================================================
+  COMPLEXITY (Measured during execution)
+==============================================================
+  Nodes Expanded  : 26
+  Time Taken      : 0.7851 ms
+  Peak Memory     : 5.1953 KB
+==============================================================
